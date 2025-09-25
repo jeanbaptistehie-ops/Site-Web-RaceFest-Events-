@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="Style site" href="style_RFE.css" />
+    <title>RaceFest Events - Formulaire</title>
+    <meta name="author" content="NUMETUS" />
+    <style>
+      html {
+        background-color: #ffffff;
+      }
+      body {
+        font-family: Unispace;
+        margin: 0;
+        padding: 0;
+        background-color: #ffffff;
+      }
+      .nav {
+        margin-top: 0px;
+        display: flex;
+        align-items: center;
+        background-color: #c20000;
+        color: white;
+        padding: 10px 20px;
+      }
+      .logo {
+        height: auto;
+        width: auto;
+      }
+      .nav img {
+        height: 40px;
+        margin-right: 10px;
+      }
+      .nav .title {
+        flex-grow: 1;
+        font-size: 20px;
+      }
+      .nav .menu {
+        display: flex;
+        gap: 20px;
+      }
+      .menu a img {
+        height: 40px;
+        width: 60px;
+        border: white 1px solid;
+      }
+
+      .menu a {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        margin: auto;
+      }
+      .menu a:hover {
+        text-decoration: underline;
+      }
+      .content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 20px;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+      .box {
+        border: 2px solid black;
+        height: 250px;
+        background-color: white;
+      }
+      .barre {
+        height: 2px;
+        background-color: #c20000;
+        margin: 20px 0;
+        max-width: 650px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .pp a {
+        color: #c20000;
+      }
+      .pp {
+        text-align: center;
+        background-color: #cccccc;
+        padding-bottom: 40px;
+      }
+      img {
+        height: 250px;
+        width: 400px;
+      }
+      .yay img {
+        margin-right: 1rem;
+        margin-left: 1503px;
+        height: 500px;
+        width: 300px;
+      }
+      .aya img {
+        margin-right: 1503px;
+        margin-left: 1rem;
+        height: 500px;
+        width: 300px;
+      }
+      .video {
+        margin-top: 2rem;
+      }
+      .formulaire {
+        display: flex;
+        justify-content: center;
+        height: 50%;
+      }
+      .menthe {
+        width: 550px;
+      }
+      aside {
+        padding: 1rem;
+        margin-left: 1rem;
+        width: 200px;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <a href="Code.html"><img class="logo" src="Logo.png" alt="logo" /></a>
+      <div class="title">RaceFest Events</div>
+      <div class="menu">
+        <a href="presentation.html">Qui sommes nous ?</a>
+        <a href="tarifs.html">Tarifs</a>
+        <a href="createurs.html">À propos</a>
+        <a href="form-en.html"><img src="francais.png" alt="francais" /></a>
+      </div>
+    </div>
+    <div class="formulaire">
+      <section>
+        <h2>Pour nous contacter</h2>
+        <form action="" id="formulaire">
+          <fieldset>
+            <legend>Vos informations</legend>
+            <p>Nom : <input type="text" /></p>
+            <p>Prénom : <input type="text" /></p>
+            <p>Adresse mail : <input type="email" /></p>
+            <p>Téléphone : <input type="tel" /></p>
+            <p>
+              Pays:
+              <select>
+                <option value="B">Belgique</option>
+                <option value="S">Suisse</option>
+                <option value="F">France</option>
+                <option value="Al">Allemagne</option>
+                <option value="It">Italie</option>
+                <option value="Uk">Royaume Uni</option>
+              </select>
+            </p>
+            <p>
+              Activité envisagée :
+              <input type="checkbox" name="" id="" form="formulaire" />Karting
+              <input type="checkbox" name="" id="" form="formulaire" />Team
+              building
+              <input type="checkbox" name="" id="" form="formulaire" />Essais de
+              voitures
+            </p>
+            <p>Commentaires:</p>
+            <textarea name="" id=""></textarea>
+            <p></p>
+            <button type="reset" form="formulaire">Annuler</button>
+            <button type="Submit" form="formulaire">Valider</button>
+          </fieldset>
+        </form>
+        <div class="video">
+          <a href="https://www.youtube.com/watch?v=S_GmfTGEjr0"
+            ><img class="menthe" src="cristaux.png" alt="img"
+          /></a>
+        </div>
+      </section>
+    </div>
+    <footer class="pp">
+      <p>
+        <a href="formulaire.html">Nous contacter</a> -
+        <a href="#legal">Mentions légales</a> © RaceFest Events 2024
+      </p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+    <html lang="fr-FR">
+    <head>
+        <meta  charset="UTF-8" />
+        <link rel="Style site" href="style_RFE.css">
+        <title>A propos</title>
+        <meta name="author" content="NUMETUS" />
+        <style>
+        html { 
+            background-color: #ffffff;
+            }
+        body {
+            font-family: Unispace;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+        .nav {
+            margin-top: 0px;
+            display: flex;
+            align-items: center;
+            background-color: #c20000;
+            color: white;
+            padding: 10px 20px;
+        }
+        .logo {
+            height: auto;
+            width: auto;
+        }
+        .nav img {
+            height: 40px;
+            margin-right: 10px;
+        }
+        .nav .title {
+            flex-grow: 1;
+            font-size: 20px;
+        }
+        .nav .menu {
+            display: flex;
+            gap: 20px;
+        }
+        .menu a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .menu a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .box {
+            border: none;
+            height: 250px;
+            background-color: white;
+        }
+        .barre {
+            height: 2px;
+            background-color: #c20000;
+            max-width: 650px;
+            margin-left: 30%;
+            margin-right: auto;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+        .texte {
+            font-family: Bahnschrift SemiBold;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            color: #1c1c1c;
+            font-weight: bold;
+            font-size: larger;
+            width: 1000px;
+            margin-top: 2rem;
+        }
+        .titresection {
+            text-align: center;
+            font-size: x-large;
+        }
+        .titresection a {
+            color: #c20000;
+        }
+        .pp a {
+            color: #c20000;
+        }
+        .pp {
+            text-align: center;
+            background-color: #cccccc;
+            padding-bottom: 40px;
+        }
+        .image {
+            margin-left: 20%;
+            margin-right: auto;
+        }
+        .txt {
+            font-family: Bahnschrift SemiBold;
+            float: right;
+            margin-right: 70%;
+            margin-top: 13%;
+            font-size: larger;
+        }
+        .container {
+    padding: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-text {
+    max-width: 600px;
+}
+
+.profile-text h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #1c1c1c;
+}
+.menu a img {
+        height: 40px;
+        width: 60px;
+        border: white 1px solid;
+      }
+      
+      .menu a {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        margin: auto;
+      }
+.profile-text p {
+    margin: 10px 0 0;
+    font-size: larger;
+    color: #000000;
+}
+@media (max-width: 768px) {
+    .profile {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-image {
+        margin-bottom: 15px;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="Code.html"><img class="logo" src="Logo.png" alt="logo"></a>
+        <div class="title">RaceFest Events</div>
+        <div class="menu">
+            <a href="presentation.html">Qui sommes nous ?</a>
+            <a href="tarifs.html">Tarifs</a>
+            <a href="createurs.html">À propos</a>
+            <a href="crea-en.html"><img src="francais.png" alt="francais"></a>
+        </div>
+    </div>
+<div class="texte">
+    RaceFest events, crée par 3 amis, pour faire profiter le monde entier de la richesse de l'automobile.
+</div>
+<div class="barre"></div>
+<div class="image">
+    <div class="container">
+        <div class="profile">
+            <img src="Martin.png" alt="Photo de Martin" class="profile-image">
+            <div class="profile-text">
+                <h2>Martin</h2>
+                <p>Martin est un passionné d'événements automobiles. Avec ses deux amis, il a cofondé RaceFest Events pour partager cette passion avec le monde entier.</p>
+            </div>
+        </div>
+    </div>
+
+    </div>
+</div>
+    <div class="barre"></div>
+    <div class="image">
+        <div class="container">
+            <div class="profile">
+                <img src="Lucas.png" alt="Photo de Martin" class="profile-image">
+                <div class="profile-text">
+                    <h2>Lucas</h2>
+                    <p>Lucas est un homme d'affaires passionné par la mode et l'argent, il cherche à devenir millionnaire.</p>
+                </div>
+            </div>
+        </div>
+    
+        </div>
+    </div>
+    <div class="barre"></div>
+<div class="image">    
+    <div class="container">
+        <div class="profile">
+            <img src="Moi.png" alt="Photo de Martin" class="profile-image">
+            <div class="profile-text">
+                <h2>Jean-Baptiste</h2>
+                <p>Jean-Baptiste est un passionné de F1 avec un grand talent dans la course automobile, il est champion du monde de crash sur F1 24.</p>
+            </div>
+        </div>
+    </div>
+</div>
+    <footer class="pp">
+        <p>
+            <a href="formulaire.html">Nous contacter</a> - <a href="#legal">Mentions légales</a> © RaceFest Events 2024
+        </p>
+    </footer>
+</body>
+</html>
